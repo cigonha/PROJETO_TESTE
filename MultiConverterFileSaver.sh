@@ -347,7 +347,6 @@ while true; do
                     echo
                     read -p "Coloca um tamanho em Metros: " distance
                     result=$(metros_quilometros "$distance")
-                    echo
                     echo "$result"
                     echo
                     echo "#### CONVERSÃO REALIZADA ####"
@@ -355,37 +354,57 @@ while true; do
                     ;;
                 2)  
                     echo
+                    echo "#### A CONVERTER ####"
+                    echo
                     read -p "Coloca um tamanho em Quilómetros: " distance
                     result=$(quilometros_metros "$distance")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 3)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em Metros: " distance
                     result=$(metros_centimetros "$distance")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 4)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em Centímetros: " distance
                     result=$(centimetros_metros "$distance")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 5)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em Quilómetros: " distance
                     result=$(quilometros_centimetros "$distance")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 6)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em Centímetros: " distance
                     result=$(centimetros_quilometros "$distance")
                     echo "$result"
+                    echo
+                    echo "#### CONVERSÃO REALIZADA ####"
                     echo
                     ;;
                 7)  
@@ -422,44 +441,68 @@ while true; do
             case $option in
                 1)  
                     echo
+                    echo "#### A CONVERTER ####"
+                    echo
                     read -p "Coloca um tamanho em bytes: " size
                     result=$(bytes_kilobytes "$size")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 2)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em bytes: " size
                     result=$(bytes_megabytes "$size")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 3)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em bytes:" size
                     result=$(bytes_gigabytes "$size")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 4)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em bytes: " size
                     result=$(bytes_terabytes "$size")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 5)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em megabytes: " size
                     result=$(megabytes_bytes "$size")
                     echo "$result"
                     echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 6)  
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tamanho em gigabytes: " size
                     result=$(gigabytes_megabytes "$size")
                     echo "$result"
+                    echo
+                    echo "#### CONVERSÃO REALIZADA ####"
                     echo
                     ;;
                 7) 
@@ -495,33 +538,58 @@ while true; do
             case $option in
                 1)
                     echo
+                    echo "#### A CONVERTER ####"
+                    echo
                     read -p "Coloca um tempo em horas: " time
                     result=$(horas_minutos "$time")
                     echo "$result"
+                    echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 2)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tempo em horas: " time
                     result=$(horas_segundos "$time")
                     echo "$result"
+                    echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 3)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tempo em minutos: " time
                     result=$(minutos_horas "$time")
                     echo "$result"
+                    echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 4)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tempo em minutos: " time
                     result=$(minutos_segundos "$time")
                     echo "$result"
+                    echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 5)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um tempo em segundos: " time
                     result=$(segundos_minutos "$time")
                     echo "$result"
+                    echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo
                     ;;
                 6) 
                     break 
@@ -563,87 +631,135 @@ while true; do
             case $option in
                 1)
                     echo
+                    echo "#### A CONVERTER ####"
+                    echo
                     read -p "Coloca um valor em euros: " value 
                     result=$(euros_reais "$value")
                     echo "$result"
-                    echo    
+                    echo   
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo 
                     ;;
                 2)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um valor em euros: " value 
                     result=$(euros_dolares "$value")
                     echo "$result"
-                    echo    
+                    echo  
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo   
                     ;;
                 3)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um valor em euros: " value 
                     result=$(euros_ienes "$value")
                     echo "$result"
-                    echo    
+                    echo 
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo   
                     ;;
                 4)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um valor em reais: " value 
                     result=$(reais_euros "$value")
                     echo "$result"
+                    echo  
+                    echo "#### CONVERSÃO REALIZADA ####"
                     echo    
                     ;;
                 5)
                     echo
+                    echo "#### A CONVERTER ####"
+                    echo
                     read -p "Coloca um valor em reais: " value 
                     result=$(reais_dolares "$value")
                     echo "$result"
-                    echo    
+                    echo   
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo 
                     ;;
                 6)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um valor em reais: " value 
                     result=$(reais_ienes "$value")
                     echo "$result"
+                    echo 
+                    echo "#### CONVERSÃO REALIZADA ####"
                     echo    
                     ;;
                 7)
                     echo
+                    echo "#### A CONVERTER ####"
+                    echo
                     read -p "Coloca um valor em dólares: " value 
                     result=$(dolares_euros "$value")
                     echo "$result"
+                    echo 
+                    echo "#### CONVERSÃO REALIZADA ####"
                     echo    
                     ;;
                 8)
                     echo
+                    echo "#### A CONVERTER ####"
+                    echo
                     read -p "Coloca um valor em dólares: " value 
                     result=$(dolares_reais "$value")
                     echo "$result"
-                    echo    
+                    echo
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo     
                     ;;
                 9)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um valor em dólares: " value 
                     result=$(dolares_ienes "$value")
                     echo "$result"
-                    echo    
+                    echo 
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo      
                     ;;
                 10)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um valor em ienes: " value 
                     result=$(ienes_euros "$value")
                     echo "$result"
+                    echo  
+                    echo "#### CONVERSÃO REALIZADA ####"
                     echo    
                     ;;
                 11)
                     echo
+                    echo "#### A CONVERTER ####"
+                    echo
                     read -p "Coloca um valor em ienes: " value 
                     result=$(ienes_dolares "$value")
                     echo "$result"
-                    echo    
+                    echo   
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo   
                     ;;
                 12)
+                    echo
+                    echo "#### A CONVERTER ####"
                     echo
                     read -p "Coloca um valor em ienes: " value 
                     result=$(ienes_reais "$value")
                     echo "$result"
-                    echo    
+                    echo  
+                    echo "#### CONVERSÃO REALIZADA ####"
+                    echo   
                     ;;
                 13) 
                     break 
